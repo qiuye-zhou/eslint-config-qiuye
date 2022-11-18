@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-qiuye",
+  "version": "0.0.2",
+  "main": "index.js",
+  "repository": "https://github.com/qiuye-zhou/eslint-config-qiuye.git",
+  "author": "qiuye <1302580865@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint --ext .js,.ts,.mjs,.cjs,.vue --fix -c index.js .",
+    "lint": "eslint --ext .js,.ts,.mjs,.cjs,.vue --fix -c index.js ."
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.7.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.3",
+    "vue-eslint-parser": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-unicorn": "^44.0.2",
+    "vue": "^3.2.45"
+  },
+  "files": [
+    "./index.js"
+  ]
+}
