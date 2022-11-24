@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qiuye",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "https://github.com/qiuye-zhou/eslint-config-qiuye.git",
   "author": "qiuye <1302580865@qq.com>",
@@ -16,14 +16,12 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unicorn": "^45.0.0",
     "eslint-plugin-vue": "^9.7.0",
-    "prettier": "^2.7.1",
     "typescript": "^4.9.3",
     "vue-eslint-parser": "^9.1.0"
   },
   "devDependencies": {
-    "eslint-plugin-unicorn": "^45.0.0",
     "vue": "^3.2.45"
   },
   "files": [
