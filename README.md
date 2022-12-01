@@ -15,10 +15,10 @@ pnpm add -D eslint eslint-config-qiuye
 
 
 ```
-// .eslintrc.js
+// .eslintrc.json
 
-module.exports = {
-    extends: ['qiuye']
+{
+    "extends": ["qiuye"]
 }
 ```
 
