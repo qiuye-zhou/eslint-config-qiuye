@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qiuye",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "index.js",
   "repository": "https://github.com/qiuye-zhou/eslint-config-qiuye.git",
   "author": "qiuye <1302580865@qq.com>",

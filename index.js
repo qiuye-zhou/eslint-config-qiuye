@@ -58,7 +58,17 @@ module.exports = {
         'no-plusplus': 0,
         'unicorn/no-null': 0,
         'no-restricted-globals': 0,
-        'no-console': 0
+        'no-console': 0,
+        'unicorn/filename-case': [
+            'error',
+            {
+                cases: {
+                    kebabCase: true,
+                    camelCase: true,
+                    pascalCase: true
+                }
+            }
+        ]
     },
     settings: {
         'import/resolver': {
