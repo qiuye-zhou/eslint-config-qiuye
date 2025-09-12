@@ -1,15 +1,15 @@
-let one = 1;
+let one = 1
 
-export default one;
+export default one
 
-JSON.stringify({ test: 'test' });
+JSON.stringify({ test: 'test' })
 
-let a = 3;
+let a = 3
 
-const test = 'test1';
+const test = 'test1'
 
 for (let index = 0; index <= 10; index += 1) {
-    a = index;
+    a = index
 }
 
-Number.parseInt(test + a, 10);
+Number.parseInt(test + a, 10)

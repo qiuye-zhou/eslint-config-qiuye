@@ -1,13 +1,13 @@
-export default 0;
+export default 0
 
-const objcs = { a: 'cs' };
+const objcs = { a: 'cs' }
 
-console.log(objcs);
+console.log(objcs)
 
-let a = 1;
+let a = 1
 
 for (let index = 0; index <= 10; index += 1) {
-    a = index;
+    a = index
 }
 
-String.toString(a);
+String.toString(a)

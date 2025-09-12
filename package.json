@@ -1,30 +1,61 @@
 {
   "name": "eslint-config-qiuye",
-  "version": "0.0.6",
-  "main": "index.js",
-  "repository": "https://github.com/qiuye-zhou/eslint-config-qiuye.git",
+  "version": "0.0.7",
+  "description": "A comprehensive ESLint configuration for JavaScript, TypeScript, JSX, TSX, and Vue projects",
+  "main": "eslint.config.js",
+  "exports": {
+    ".": "./eslint.config.js",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiuye-zhou/eslint-config-qiuye.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "typescript",
+    "jsx",
+    "tsx",
+    "vue",
+    "react",
+    "linting",
+    "code-quality"
+  ],
   "author": "qiuye <1302580865@qq.com>",
   "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
-    "test": "eslint --ext .js,.ts,.mjs,.cjs,.vue --fix -c index.js .",
-    "lint": "eslint --ext .js,.ts,.mjs,.cjs,.vue --fix -c index.js ."
+    "lint": "eslint --fix ."
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.7.0",
-    "eslint": "^8.49.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^48.0.1",
-    "eslint-plugin-vue": "^9.17.0",
-    "typescript": "^5.2.2",
-    "vue-eslint-parser": "^9.3.1"
+    "@eslint/js": "^9.35.0",
+    "@typescript-eslint/eslint-plugin": "^8.43.0",
+    "@typescript-eslint/parser": "^8.43.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-unicorn": "^61.0.2",
+    "eslint-plugin-vue": "^10.4.0",
+    "globals": "^15.12.0",
+    "vue-eslint-parser": "^10.2.0"
   },
   "devDependencies": {
-    "vue": "^3.3.4"
+    "eslint": "^9.35.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.9.2",
+    "vue": "^3.5.21"
   },
   "files": [
-    "./index.js"
+    "eslint.config.js",
+    "index.js",
+    "README.md",
+    "LICENSE"
   ]
 }
