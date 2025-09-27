@@ -105,7 +105,3 @@ export default [
 
 - Node.js >= 18.0.0
 - ESLint >= 9.0.0
-
-## 许可证
-
-MIT
